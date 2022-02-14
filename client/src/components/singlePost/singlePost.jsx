@@ -86,7 +86,7 @@ const SinglePost = () => {
         )}
         <div className="single-post-info">
           <span>
-            written By :
+            written by :
             <Link to={`/?username=${post.username}`} className="link">
               {post.username}
             </Link>
