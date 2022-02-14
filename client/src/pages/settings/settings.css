@@ -1,0 +1,88 @@
+.settings {
+  display: flex;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+}
+.setting-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.settings-title {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-update-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(232, 233, 235);
+}
+.settings-delete-title {
+  color: red;
+  font-size: 14px;
+  cursor: pointer;
+}
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.settings-pp {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.settings-pp > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settings-pp-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.settings-form > label {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.settings-form > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+}
+.settings-submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

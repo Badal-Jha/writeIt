@@ -1,0 +1,76 @@
+.post-card {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 390px;
+  height: 404px;
+  border-radius: 30px;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(146, 142, 142, 0.15) 1.95px 1.95px 2.6px;
+
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.post > img {
+  width: 390px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postCat {
+  font-family: "Varela", sans-serif;
+
+  font-size: 12px;
+  color: rgb(216, 63, 25);
+  line-height: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.postTitle {
+  font-family: "Lora", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  margin-top: 15px;
+}
+.postDesc {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+@media (max-width: 600px) {
+  .post-card {
+    width: 290px;
+    height: 304px;
+    border-radius: 20px;
+  }
+}

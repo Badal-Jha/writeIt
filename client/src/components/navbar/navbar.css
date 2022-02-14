@@ -1,0 +1,64 @@
+.nav-parent {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+}
+.nav-logo {
+  flex: 6;
+  margin: 10px;
+  font-family: "ubuntu";
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-items {
+  flex: 4;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  color: rgb(110, 63, 63);
+  list-style: none;
+  margin: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+.nav-user {
+  display: flex;
+  align-items: center;
+}
+.user-profile-img {
+  height: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.nav-user > i {
+  color: rgb(34, 23, 23);
+  width: 30px;
+}
+.nav-logout {
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.nav-logout:hover {
+  background: #e7db28;
+  color: rgb(136, 135, 135);
+}
+@media (max-width: 600px) {
+}

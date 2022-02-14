@@ -1,0 +1,54 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../assets/images/photo-6.png");
+  background-size: cover;
+}
+.register-title {
+  font-size: 50px;
+}
+.register-form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.register-form > label {
+  margin: 10px 0;
+}
+.register-input {
+  padding: 10px;
+  background-color: rgb(221, 211, 211);
+  border: none;
+  outline: none;
+}
+.register-button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+.register-button:hover {
+  background-color: rgb(3, 130, 180);
+}
+.registerRegister-button {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

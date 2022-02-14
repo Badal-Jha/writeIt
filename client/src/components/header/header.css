@@ -1,0 +1,81 @@
+.header {
+  width: full;
+  display: flex;
+  padding: 6px;
+  height: 100vh;
+  justify-content: space-between;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-title {
+  top: 20%;
+  width: 50%;
+  padding: 30px;
+}
+.header-title > h1 {
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  font-family: "ubuntu";
+  border-bottom: 2px solid gray;
+}
+.header-title > p {
+  margin-top: 20px;
+  color: rgb(253, 253, 253);
+  font-size: 23px;
+  font-family: "Bubblegum";
+}
+.hero-img-container > img {
+  width: 400px;
+  height: 400px;
+
+  margin-top: 30px;
+}
+.hero-img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section-button {
+  z-index: 10;
+
+  margin-top: 100px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica, "sans-serif";
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #e7db28;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.hero-section-button:hover {
+  background: #f1f1ec;
+}
+
+.hero-section-button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-section-button:hover svg {
+  transform: translateX(5px);
+}
+
+.hero-section-button:active {
+  transform: scale(0.95);
+}
